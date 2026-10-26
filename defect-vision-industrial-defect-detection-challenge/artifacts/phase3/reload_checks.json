@@ -1,0 +1,26 @@
+[
+  {
+    "category": "bottle",
+    "method": "pixel_knn",
+    "model_path": "C:\\Users\\saury\\Desktop\\kaggle-competition\\defect-vision-industrial-defect-detection-challenge\\artifacts\\phase3\\models\\bottle_pixel_knn.npz",
+    "reload_max_abs_error": 0.0
+  },
+  {
+    "category": "cable",
+    "method": "patch_memory",
+    "model_path": "C:\\Users\\saury\\Desktop\\kaggle-competition\\defect-vision-industrial-defect-detection-challenge\\artifacts\\phase3\\models\\cable_patch_memory.npz",
+    "reload_max_abs_error": 0.0
+  },
+  {
+    "category": "hazelnut",
+    "method": "pixel_knn",
+    "model_path": "C:\\Users\\saury\\Desktop\\kaggle-competition\\defect-vision-industrial-defect-detection-challenge\\artifacts\\phase3\\models\\hazelnut_pixel_knn.npz",
+    "reload_max_abs_error": 0.0
+  },
+  {
+    "category": "screw",
+    "method": "pixel_knn",
+    "model_path": "C:\\Users\\saury\\Desktop\\kaggle-competition\\defect-vision-industrial-defect-detection-challenge\\artifacts\\phase3\\models\\screw_pixel_knn.npz",
+    "reload_max_abs_error": 0.0
+  }
+]

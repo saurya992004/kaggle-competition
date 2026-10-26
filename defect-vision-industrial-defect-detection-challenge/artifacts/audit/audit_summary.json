@@ -1,0 +1,117 @@
+{
+  "generated_utc": "2026-10-16T04:40:16.004596+00:00",
+  "input_root": "C:\\Users\\saury\\Desktop\\kaggle-competition\\defect-vision-industrial-defect-detection-challenge",
+  "metadata_rows": {
+    "train": 742,
+    "test": 503
+  },
+  "metadata_columns": {
+    "train": [
+      "id",
+      "path",
+      "category",
+      "label",
+      "split"
+    ],
+    "test": [
+      "id",
+      "path",
+      "category",
+      "split"
+    ]
+  },
+  "missing_values": {
+    "train": {
+      "category": 0,
+      "id": 0,
+      "label": 0,
+      "path": 0,
+      "split": 0
+    },
+    "test": {
+      "category": 0,
+      "id": 0,
+      "path": 0,
+      "split": 0
+    }
+  },
+  "category_counts": {
+    "train": {
+      "bottle": 135,
+      "cable": 145,
+      "hazelnut": 254,
+      "screw": 208
+    },
+    "test": {
+      "bottle": 83,
+      "cable": 150,
+      "hazelnut": 110,
+      "screw": 160
+    }
+  },
+  "label_counts_train": {
+    "0": 742
+  },
+  "unique_ids": {
+    "train": true,
+    "test": true
+  },
+  "train_test_id_overlap": 0,
+  "train_test_path_overlap": 0,
+  "sample_submission": {
+    "columns": [
+      "id",
+      "label"
+    ],
+    "rows": 503,
+    "ids_match_test_set": true,
+    "label_values": [
+      "0"
+    ]
+  },
+  "image_status_counts": {
+    "ok": 1245
+  },
+  "formats": {
+    "JPEG": 198,
+    "PNG": 1047
+  },
+  "original_modes": {
+    "RGB": 1245
+  },
+  "raw_channel_counts": {
+    "3": 1245
+  },
+  "pixel_grayscale_count": 420,
+  "dimensions_by_pair": {
+    "192x192": 300,
+    "224x224": 287,
+    "256x256": 342,
+    "288x288": 316
+  },
+  "dimensions": {
+    "unique": 4,
+    "width_range": [
+      192,
+      288
+    ],
+    "height_range": [
+      192,
+      288
+    ]
+  },
+  "clips_files": 1245,
+  "unreferenced_clips_files": 0,
+  "referenced_files_missing": 0,
+  "unreadable_files": 0,
+  "exact_duplicate_groups": 0,
+  "exact_duplicate_images": 0,
+  "near_duplicate_pairs_dhash_le_4": 21760,
+  "cross_split_near_duplicate_pairs": 10029,
+  "preprocessing_check_shape": [
+    3,
+    256,
+    256
+  ],
+  "preprocessing_check_dtype": "float32"
+}

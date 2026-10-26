@@ -1,0 +1,13 @@
+seed: 20261019
+folds: 3
+image_size: 64
+reconstruction_size: 32
+tail_fraction: 0.01
+patch_size: 8
+patch_stride: 8
+patch_tail_fraction: 0.10
+patch_memory_size: 512
+pca_components: 24
+target_normal_fpr: 0.05
+synthetic_variants: [cutout, scratch, texture_patch]
+methods: [pixel_knn, global_density, patch_memory, pca_reconstruction]

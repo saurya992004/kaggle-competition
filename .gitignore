@@ -1,0 +1,18 @@
+# Large data archives and folders
+**/clips/
+**/clips.zip
+**/mvtec_gt_test/
+*.tar.xz
+*.zip
+
+# Large binary numpy feature dumps (>100MB blocked by GitHub)
+*.npz
+*.npy
+
+# Python caches
+**/__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db

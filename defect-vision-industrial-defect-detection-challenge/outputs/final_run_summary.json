@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-19T18:56:55.638211+00:00",
+  "submission_path": "C:\\Users\\saury\\Desktop\\kaggle-competition\\defect-vision-industrial-defect-detection-challenge\\submission.csv",
+  "submission_sha256": "a42650b2b089dc209846f74519d85af845c0dac283e01ea05cb5546a9be4d6a3",
+  "immutable_backup": "C:\\Users\\saury\\Desktop\\kaggle-competition\\defect-vision-industrial-defect-detection-challenge\\outputs\\immutable_submissions\\submission_a42650b2b089dc209846f74519d85af845c0dac283e01ea05cb5546a9be4d6a3.csv",
+  "test_rows": 503,
+  "prediction_counts": {
+    "0": 370,
+    "1": 133
+  },
+  "by_category": {
+    "bottle": {
+      "count": 83,
+      "predicted_1": 53
+    },
+    "cable": {
+      "count": 150,
+      "predicted_1": 34
+    },
+    "hazelnut": {
+      "count": 110,
+      "predicted_1": 31
+    },
+    "screw": {
+      "count": 160,
+      "predicted_1": 15
+    }
+  },
+  "runtime_seconds": 639.0253105000011
+}

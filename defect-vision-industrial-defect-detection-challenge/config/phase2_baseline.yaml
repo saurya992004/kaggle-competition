@@ -1,0 +1,11 @@
+# Normal-only Phase 2 benchmark. Synthetic labels are proxy labels only.
+seed: 20261019
+image_size: 64
+folds: 3
+tail_fraction: 0.01
+synthetic_variants: [cutout, scratch, texture_patch]
+methods: [knn_tail, template_tail]
+# Numeric candidate encoding inferred from normal-only train labels. Never submit
+# until Kaggle's Evaluation tab confirms both label vocabulary and positive class.
+candidate_good_label: 0
+candidate_defective_label: 1

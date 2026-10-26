@@ -1,0 +1,101 @@
+{
+  "config": {
+    "seed": 20261019,
+    "image_size": 64,
+    "folds": 3,
+    "tail_fraction": 0.01,
+    "synthetic_variants": [
+      "cutout",
+      "scratch",
+      "texture_patch"
+    ],
+    "methods": [
+      "knn_tail",
+      "template_tail"
+    ],
+    "candidate_good_label": 0,
+    "candidate_defective_label": 1
+  },
+  "selected_proxy_method_by_category": {
+    "bottle": "knn_tail",
+    "cable": "template_tail",
+    "hazelnut": "knn_tail",
+    "screw": "knn_tail"
+  },
+  "thresholds": [
+    {
+      "category": "bottle",
+      "method": "knn_tail",
+      "proxy_threshold": 0.24425315856933594,
+      "proxy_f1": 0.9887640449438202,
+      "rows": 810,
+      "normal_rows": 405,
+      "synthetic_rows": 405
+    },
+    {
+      "category": "bottle",
+      "method": "template_tail",
+      "proxy_threshold": 5.038482189178467,
+      "proxy_f1": 0.9875930521091811,
+      "rows": 810,
+      "normal_rows": 405,
+      "synthetic_rows": 405
+    },
+    {
+      "category": "cable",
+      "method": "knn_tail",
+      "proxy_threshold": 0.44195765256881714,
+      "proxy_f1": 0.8304498269896193,
+      "rows": 870,
+      "normal_rows": 435,
+      "synthetic_rows": 435
+    },
+    {
+      "category": "cable",
+      "method": "template_tail",
+      "proxy_threshold": 4.507181167602539,
+      "proxy_f1": 0.8423373759647188,
+      "rows": 870,
+      "normal_rows": 435,
+      "synthetic_rows": 435
+    },
+    {
+      "category": "hazelnut",
+      "method": "knn_tail",
+      "proxy_threshold": 0.21948033571243286,
+      "proxy_f1": 0.9742574257425742,
+      "rows": 1524,
+      "normal_rows": 762,
+      "synthetic_rows": 762
+    },
+    {
+      "category": "hazelnut",
+      "method": "template_tail",
+      "proxy_threshold": 5.693717956542969,
+      "proxy_f1": 0.9414141414141414,
+      "rows": 1524,
+      "normal_rows": 762,
+      "synthetic_rows": 762
+    },
+    {
+      "category": "screw",
+      "method": "knn_tail",
+      "proxy_threshold": 0.27160850167274475,
+      "proxy_f1": 0.9471974004874086,
+      "rows": 1248,
+      "normal_rows": 624,
+      "synthetic_rows": 624
+    },
+    {
+      "category": "screw",
+      "method": "template_tail",
+      "proxy_threshold": 8.710902214050293,
+      "proxy_f1": 0.6792452830188679,
+      "rows": 1248,
+      "normal_rows": 624,
+      "synthetic_rows": 624
+    }
+  ],
+  "candidate_predicted_defective": 85,
+  "test_rows": 503
+}
